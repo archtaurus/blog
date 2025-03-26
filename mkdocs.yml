@@ -1,19 +1,28 @@
+site_author: 老赵
 site_name: 老赵杂记
-site_url: https://io-oi.cc/blog
+site_url: https://io-oi.cc/blog/
+site_description: "老赵杂记"
 nav:
   - 首页: index.md
   - MkDocs: mkdocs.md
+extra_css:
+  - stylesheets/custom.css # 自定义样式表
 extra_javascript:
-  - js/external_links.js # 自动为所有外链添加 target="_blank"
+  - javascripts/external_links.js # 自动为所有外链添加 target="_blank"
+extra:
+  generator: false # 隐藏生成软件声明
 theme:
-  language: zh
-  name: material
+  language: zh # 主题样式名称
+  name: material # 主题样式名称 [material mkdocs]
+  custom_dir: theme
+  # icon:
+  #   logo: material/glasses
   logo: images/logo.png
   favicon: images/favicon.png
-  palette:
-    scheme: dark
-    primary: indigo
   features:
     - content.code.copy # 显示复制按钮
-extra:
-  generator: false
+    - content.code.annotate
+# markdown_extensions:
+#   - pymdownx.superfences
+#   - pymdownx.highlight:
+#       use_pygments: false # 禁用 Pygments

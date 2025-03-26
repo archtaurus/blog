@@ -1,0 +1,18 @@
+/* docs/stylesheets/custom.css */
+pre[class*="language-"] {
+    border-radius: 8px;
+    margin: 1em 0;
+}
+
+.line-numbers .line-numbers-rows {
+    border-right: 1px solid #666;
+    padding-right: 1em;
+}
+
+.language-label {
+    position: absolute;
+    right: 1em;
+    top: 0.5em;
+    color: #999;
+    font-size: 0.8em;
+}
