@@ -1,5 +1,5 @@
 site_name: 老赵杂记
-site_url: https://archtaurus.github.io/blog
+site_url: https://io-oi.cc/blog
 nav:
   - 首页: index.md
   - MkDocs: mkdocs.md
