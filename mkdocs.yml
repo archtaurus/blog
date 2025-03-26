@@ -24,5 +24,4 @@ theme:
   favicon: images/favicon.png
   features:
     - content.code.copy # 显示复制按钮
-    - content.code.annotate
     - navigation.top
