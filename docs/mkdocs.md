@@ -15,7 +15,7 @@ mkdocs gh-deploy
 
 在 `MkDocs` 生成的 `HTML` 中注入 `JavaScript`，自动为所有外链添加 `target="_blank"`。
 
-创建自定义脚本文件`docs/js/external_links.js`
+创建自定义脚本文件`docs/javascripts/external_links.js`
 
 ```js
 document.addEventListener("DOMContentLoaded", function () {
