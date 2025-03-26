@@ -1,0 +1,8 @@
+site_name: io-oi.cc
+site_url: https://io-oi.cc/
+theme:
+  name: material
+  language: zh
+nav:
+  - 首页: index.md
+  - Hyprland: hyprland.md
