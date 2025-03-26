@@ -1,7 +1,7 @@
-site_name: io-oi.cc
-site_url: https://io-oi.cc/
+site_name: 老赵杂记
+site_url: https://archtaurus.github.io/blog
 theme:
-  name: material
+  name: material # readthedocs, material
   language: zh
 nav:
   - 首页: index.md
