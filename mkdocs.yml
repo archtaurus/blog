@@ -2,6 +2,8 @@ site_author: 老赵
 site_name: 老赵杂记
 site_url: https://io-oi.cc/blog/
 site_description: "老赵杂记"
+repo_name: archtaurus/blog
+repo_url: https://github.com/archtaurus/blog
 nav:
   - 首页: index.md
   - MkDocs: mkdocs.md
@@ -15,14 +17,12 @@ theme:
   language: zh # 主题样式名称
   name: material # 主题样式名称 [material mkdocs]
   custom_dir: theme
-  # icon:
-  #   logo: material/glasses
+  icon:
+    repo: fontawesome/brands/github-alt
+    # logo: material/glasses
   logo: images/logo.png
   favicon: images/favicon.png
   features:
     - content.code.copy # 显示复制按钮
     - content.code.annotate
-# markdown_extensions:
-#   - pymdownx.superfences
-#   - pymdownx.highlight:
-#       use_pygments: false # 禁用 Pygments
+    - navigation.top
