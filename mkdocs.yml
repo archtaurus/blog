@@ -1,42 +1,60 @@
+# 基本信息
 site_author: 老赵
 site_name: 老赵杂记
 site_url: https://io-oi.cc/blog/
 site_description: "老赵杂记"
 repo_name: archtaurus/blog
 repo_url: https://github.com/archtaurus/blog
+# 导航菜单
 nav:
   - 首页: index.md
-  - 帮助: help.md
+  - 配置及测试: mkdocs.md
+  - temp: temp.md
+  - MkDocs: https://www.mkdocs.org
+  - Material for MkDocs: https://squidfunk.github.io/mkdocs-material
+# 附加样式表
 extra_css:
-  - stylesheets/custom.css # 自定义样式表
+  - stylesheets/custom.css
+# 附加js脚本
 extra_javascript:
-  - javascripts/mathjax.js
   - javascripts/external_links.js # 自动为所有外链添加 target="_blank"
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6  # ES6 兼容（可选）
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # - https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js # BootCDN（国内）
 extra:
   generator: false # 隐藏生成软件声明
 theme:
   language: zh # 主题样式名称
   name: material # 主题样式名称 [material mkdocs]
   # custom_dir: theme
+  font:
+    text: Maple Mono NF CN
+    code: Maple Mono NF CN
   icon:
     repo: fontawesome/brands/github-alt
   logo: images/logo.png
   favicon: images/favicon.png
   features:
+    - content.code.annotate # 更好的代码和公式渲染
+    - content.code.copy # 显示代码块复制按钮
     - navigation.top # 显示返回顶部按钮
-    - content.code.copy # 显示复制按钮
+    - toc.integrate # 文章目录与 nav 导航栏整合
 markdown_extensions:
-  - pymdownx.emoji
-  - pymdownx.superfences
-  - pymdownx.inlinehilite
-  - attr_list
-  - pymdownx.arithmatex:
-      generic: true
+  - attr_list # 扩展允许你在 Markdown 中直接为元素指定属性、类名、样式
+  - pymdownx.emoji # 扩展允许你使用表情符号
+  - pymdownx.arithmatex:  # 数学公式支持
+      generic: true       # 允许通用 LaTeX 语法 \(...\) 和 \[...\]
   - pymdownx.highlight:
-      line_spans: __line
-      linenums: true
-      anchor_linenums: true
-      pygments_lang_class: true
-      use_pygments: true # 使用 Pygments 作为高亮引擎
+      use_pygments: true  # 使用 Pygments 作为高亮引擎
+      linenums: true      # 启用行号（需要加 linenums="1"）
       auto_title: true
+
+  # 以下待确定
+  # - pymdownx.superfences
+  # - pymdownx.inlinehilite
+  # - pymdownx.highlight:
+  #     line_spans: __line
+  #     linenums: true
+  #     anchor_linenums: true
+  #     pygments_lang_class: true
+  #     auto_title: true
