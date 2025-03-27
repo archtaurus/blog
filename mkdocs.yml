@@ -6,17 +6,19 @@ repo_name: archtaurus/blog
 repo_url: https://github.com/archtaurus/blog
 nav:
   - 首页: index.md
-  - MkDocs: mkdocs.md
+  - 帮助: help.md
 extra_css:
   - stylesheets/custom.css # 自定义样式表
 extra_javascript:
+  - javascripts/mathjax.js
   - javascripts/external_links.js # 自动为所有外链添加 target="_blank"
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra:
   generator: false # 隐藏生成软件声明
 theme:
   language: zh # 主题样式名称
   name: material # 主题样式名称 [material mkdocs]
-  custom_dir: theme
+  # custom_dir: theme
   icon:
     repo: fontawesome/brands/github-alt
   logo: images/logo.png
@@ -24,44 +26,17 @@ theme:
   features:
     - navigation.top # 显示返回顶部按钮
     - content.code.copy # 显示复制按钮
-
-# markdown_extensions:
-#   - pymdownx.superfences
-#   - pymdownx.inlinehilite
-#   - pymdownx.highlight:
-#       line_spans: __span
-#       anchor_linenums: true
-#       pygments_lang_class: true
-#       # 使用 Pygments 作为高亮引擎
-#       use_pygments: true
-#       # 行号配置
-#       linenums: true
-#       linenums_style: table
-#       # 高亮风格使用 material 主题
-#       pygments_style: material
-#   - pymdownx.superfences:
-#       # 自定义代码块格式
-#       custom_fences:
-#         - name: "*"
-#           class: "codehilite"
-#           format: !!python/name:pymdownx.superfences.fence_code_format
-#   - attr_list
-#   # - pymdownx.tabbed
-#   - pymdownx.snippets
-
-# markdown_extensions:
-#   - pymdownx.superfences:
-#       custom_fences:
-#         - name: "*"
-#           class: highlighted
-#           # format: !!python/name:pymdownx.superfences.fence_div_format
-#   - pymdownx.highlight:
-#       use_pygments: true
-#       linenums: true
-#       linenums_style: pymdownx-inline
-#       anchor_linenums: true
-#       line_spans: __line
-#       pygments_style: material
-#   - attr_list
-#   - pymdownx.emoji
-#   - pymdownx.details
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      line_spans: __line
+      linenums: true
+      anchor_linenums: true
+      pygments_lang_class: true
+      use_pygments: true # 使用 Pygments 作为高亮引擎
+      auto_title: true

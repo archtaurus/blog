@@ -1,8 +1,12 @@
-# MkDocs
+# 帮助
 
-## 基本命令
+## MkDocs
 
-```shell
+[MkDocs 官网](https://www.mkdocs.org)
+
+### 基本命令
+
+```shell linenums="1"
 pip install mkdocs
 mkdocs new blog
 cd blog
@@ -11,7 +15,7 @@ mkdocs build
 mkdocs gh-deploy
 ```
 
-## 使外链在新标签打开
+### 使外链在新标签打开
 
 在 `MkDocs` 生成的 `HTML` 中注入 `JavaScript`，为所有外链添加 `target="_blank"`。创建自定义脚本文件 `docs/javascripts/external_links.js`：
 
@@ -34,7 +38,7 @@ extra_javascript:
   - javascripts/external_links.js
 ```
 
-## 代码块样式修改
+### 代码块样式修改
 
 在 `mkdocs.yml` 中引入模板覆盖路径及样式表文件
 
@@ -105,7 +109,55 @@ pre[class*="language-"] {
 }
 ```
 
-## 相关文档
+## Material for MkDocs
 
-- [MkDocs](https://www.mkdocs.org)
-- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
+
+```c++ {title="myprog.cpp"}
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int s = 3661; // 秒数
+    int a = s / 3600;
+    int b = s % 3600 / 60;
+    int c = s % 60;
+    printf("%02d:%02d:%02d\n", a, b, c);
+    return 0;
+}
+```
+
+```yaml
+markdown_extensions:
+  - attr_list
+```
+
+```md
+[测试链接](#){ .md-button }
+```
+
+[测试链接](#){ .md-button }
+
+```yaml
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+```
+
+```md
+$$
+C_n^m = \dfrac{A_n^m}{A_m^m} = \dfrac{n!}{(n-m)!m!}
+$$
+```
+
+$$
+C_n^m = \dfrac{A_n^m}{A_m^m} = \dfrac{n!}{(n-m)!m!}
+$$
+
+`pymdownx.emoji`
+
+```md
+:smile: :heart: :thumbsup:
+```
+
+:smile: :heart: :thumbsup:
