@@ -19,9 +19,49 @@ theme:
   custom_dir: theme
   icon:
     repo: fontawesome/brands/github-alt
-    # logo: material/glasses
   logo: images/logo.png
   favicon: images/favicon.png
   features:
+    - navigation.top # 显示返回顶部按钮
     - content.code.copy # 显示复制按钮
-    - navigation.top
+
+# markdown_extensions:
+#   - pymdownx.superfences
+#   - pymdownx.inlinehilite
+#   - pymdownx.highlight:
+#       line_spans: __span
+#       anchor_linenums: true
+#       pygments_lang_class: true
+#       # 使用 Pygments 作为高亮引擎
+#       use_pygments: true
+#       # 行号配置
+#       linenums: true
+#       linenums_style: table
+#       # 高亮风格使用 material 主题
+#       pygments_style: material
+#   - pymdownx.superfences:
+#       # 自定义代码块格式
+#       custom_fences:
+#         - name: "*"
+#           class: "codehilite"
+#           format: !!python/name:pymdownx.superfences.fence_code_format
+#   - attr_list
+#   # - pymdownx.tabbed
+#   - pymdownx.snippets
+
+# markdown_extensions:
+#   - pymdownx.superfences:
+#       custom_fences:
+#         - name: "*"
+#           class: highlighted
+#           # format: !!python/name:pymdownx.superfences.fence_div_format
+#   - pymdownx.highlight:
+#       use_pygments: true
+#       linenums: true
+#       linenums_style: pymdownx-inline
+#       anchor_linenums: true
+#       line_spans: __line
+#       pygments_style: material
+#   - attr_list
+#   - pymdownx.emoji
+#   - pymdownx.details

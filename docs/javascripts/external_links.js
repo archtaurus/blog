@@ -1,3 +1,5 @@
+/* docs/javascripts/external_links.js */
+
 document.addEventListener("DOMContentLoaded", function () {
     const links = document.querySelectorAll("a")
     links.forEach(link => {

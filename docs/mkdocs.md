@@ -2,7 +2,7 @@
 
 ## 基本命令
 
-```sh
+```shell
 pip install mkdocs
 mkdocs new blog
 cd blog
@@ -13,11 +13,9 @@ mkdocs gh-deploy
 
 ## 使外链在新标签打开
 
-在 `MkDocs` 生成的 `HTML` 中注入 `JavaScript`，自动为所有外链添加 `target="_blank"`。
+在 `MkDocs` 生成的 `HTML` 中注入 `JavaScript`，为所有外链添加 `target="_blank"`。创建自定义脚本文件 `docs/javascripts/external_links.js`：
 
-创建自定义脚本文件`docs/javascripts/external_links.js`
-
-```js
+```javascript
 document.addEventListener("DOMContentLoaded", function () {
     const links = document.querySelectorAll("a")
     links.forEach(link => {
@@ -29,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 })
 ```
 
-在 `mkdocs.yml` 中引入脚本
+在 `mkdocs.yml` 中引入该脚本文件
 
 ```yaml
 extra_javascript:
@@ -80,7 +78,6 @@ extra_css:
 
 ```yaml
 markdown_extensions:
-  - pymdownx.superfences
   - pymdownx.highlight:
       use_pygments: false
 ```
