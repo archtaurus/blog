@@ -1,6 +1,27 @@
 /* docs/stylesheets/custom.css */
 
-pre[class*="language-"] {
-    border-radius: 8px;
-    margin: 1em 0;
+/* 右侧目录布局 */
+@media screen and (min-width: 76.25em) {
+    .md-main__inner {
+        display: flex;
+        flex-direction: row-reverse;
+        /* 反向排列 */
+    }
+
+    .md-content {
+        margin-left: 0;
+        margin-right: 1.2rem;
+    }
+
+    .md-sidebar--secondary {
+        left: auto;
+        right: 0;
+        border-left: 1px solid var(--md-default-fg-color--lightest);
+        border-right: none;
+    }
+}
+
+/* 调整目录宽度 */
+.md-sidebar--secondary {
+    width: 15rem;
 }
