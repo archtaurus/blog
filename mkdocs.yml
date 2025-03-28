@@ -19,9 +19,9 @@ repo_url: https://github.com/archtaurus/blog # 仓库链接
 # ========================
 nav:
   - 首页: index.md
-  - 配置及测试: setup.md
-  - MkDocs: https://www.mkdocs.org # 外部链接
-  - Material for MkDocs: https://squidfunk.github.io/mkdocs-material # 外部链接
+  - 学数学: math.md
+  - 学编程: code.md
+  - 收藏夹: links.md
 
 # ========================
 # 资源文件配置

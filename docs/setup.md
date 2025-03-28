@@ -186,3 +186,8 @@ bool isPrime(const int n) {
     return true; // 如果通过了所有检查，n 是质数
 }
 ```
+
+## 相关链接
+
+- [MkDocs](https://www.mkdocs.org)
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
