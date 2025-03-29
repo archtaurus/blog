@@ -2,7 +2,7 @@
 
 ## 算法
 
-### 获取[因数](http://127.0.0.1:8000/blog/math/#factor) {#factor}
+### 获取[因数](../math/#factor) {#factor}
 
 ```c++
 #include <algorithm>
@@ -35,7 +35,7 @@ int main() {
 // 输出：1 3 5 15 823 2469 4115 12345
 ```
 
-### [质数](http://127.0.0.1:8000/blog/math/#prime)相关算法 {#factor}
+### [质数](../math/#prime)相关算法 {#prime}
 
 判断质数
 
@@ -44,9 +44,9 @@ int main() {
 
 /**
  * 判断一个整数是否为质数
- * 使用6k±1优化算法，时间复杂度为O(√n)
+ * 使用 6k±1 优化算法，时间复杂度为 O(√n)
  * @param n 待判断的整数
- * @return 是质数返回true，否则返回false
+ * @return 是质数返回 true，否则返回 false
  */
 bool isPrime(const int n) {
 	if (n < 2) return false;                    // 小于 2 不是质数
@@ -63,7 +63,31 @@ bool isPrime(const int n) {
 }
 ```
 
-筛法求 n 以内的质数
+[埃拉托斯特尼筛法](https://zh.wikipedia.org/zh-hans/埃拉托斯特尼筛法)求 n 以内的质数
 
 ```c++
+#include <iostream>
+#include <vector>
+
+std::vector<bool> eratosthenes(const int upperbound) {
+	std::vector<bool> flag(upperbound + 1, true);
+	flag[0] = flag[1] = false; //exclude 0 and 1
+	for (int i = 2; i * i <= upperbound; ++i) {
+		if (flag[i]) {
+			for (int j = i * i; j <= upperbound; j += i)
+				flag[j] = false;
+		}
+	}
+	return flag;
+}
+
+int main() {
+	std::vector<bool> isPrime = eratosthenes(100);
+	for (int i = 2; i <= 100; ++i) {
+		if (isPrime[i])	std::cout << i << ' ';
+	}
+	return 0;
+}
+
+// 输出：2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
 ```
