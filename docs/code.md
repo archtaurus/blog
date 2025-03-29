@@ -68,11 +68,13 @@ bool isPrime(const int n) {
 ```c++
 #include <iostream>
 #include <vector>
+#include <cmath>
 
 std::vector<bool> eratosthenes(const int upperbound) {
 	std::vector<bool> flag(upperbound + 1, true);
 	flag[0] = flag[1] = false; //exclude 0 and 1
-	for (int i = 2; i * i <= upperbound; ++i) {
+    int sqrtN = static_cast<int>(std::sqrt(upperbound));
+	for (int i = 2; i <= sqrtN; ++i) {
 		if (flag[i]) {
 			for (int j = i * i; j <= upperbound; j += i)
 				flag[j] = false;
