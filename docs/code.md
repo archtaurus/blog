@@ -349,4 +349,26 @@ int main() {
 分解质因数
 
 ```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+vector<int> primeFactors(int n) {
+    vector<int> result;
+    for (int i = 2; i * i <= n; ++i) {
+        while (n % i == 0) {
+            result.push_back(i);
+            n /= i;
+        }
+    }
+    if (n != 1) result.push_back(n);
+    return result;
+}
+
+int main() {
+    auto factors = primeFactors(9999);
+    for (auto f : factors) cout << f << ' ';
+    return 0;
+}
+
+/* 输出：3 3 11 101 */
 ```
