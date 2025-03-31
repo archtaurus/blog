@@ -69,12 +69,12 @@ theme:
   # 颜色方案配置
   palette:
     - scheme: default # 浅色模式
-      primary: blue # 主色调
+      primary: grey # 主色调
       toggle:
         icon: material/lightbulb-outline # 切换图标
         name: 切换到深色模式 # 切换提示文字
     - scheme: slate # 深色模式
-      primary: indigo # 主色调
+      primary: black # 主色调
       toggle:
         icon: material/lightbulb # 切换图标
         name: 切换到浅色模式 # 切换提示文字
