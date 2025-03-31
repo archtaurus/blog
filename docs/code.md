@@ -254,7 +254,7 @@ int lcm(const int a, const int b) {
 }
 ```
 
-#### 获取 [因数](../math/#factor) {#factor}
+#### 获取 [因数](math.md#factor) {#factor}
 
 ```c++
 #include <algorithm>
@@ -287,7 +287,7 @@ int main() {
 // 输出：1 3 5 15 823 2469 4115 12345
 ```
 
-#### [质数](../math/#prime) 相关算法 {#prime}
+#### [质数](math.md#prime) 相关算法 {#prime}
 
 判断质数
 

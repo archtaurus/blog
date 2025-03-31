@@ -85,7 +85,7 @@ theme:
 plugins:
   - search: # 搜索插件
       lang: zh # 中文分词
-      separator: '[\s\-]+' # 分词规则
+      separator: '[\s\-\.\_\#]+' # 增加对#号的识别
 
 # ========================
 # Markdown 扩展
