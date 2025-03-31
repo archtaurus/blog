@@ -4,8 +4,6 @@
 
 - [DeepSeek - 探索未至之境](https://chat.deepseek.com/)
 - [维基百科，自由的百科全书](https://zh.m.wikipedia.org/)
-- [哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/)
-- [YouTube](https://www.youtube.com/)
 
 ## 学习辅导 {#study}
 
@@ -25,6 +23,9 @@
     - [Python Challenge](http://www.pythonchallenge.com/)
     - [CheckiO - coding games and programming challenges for beginner and advanced](https://checkio.org/)
     - [HelloGitHub｜月刊](https://hellogithub.com/periodical)
+- 英语
+    - [剑桥词典：查找意思、解释及翻译](https://dictionary.cambridge.org/zhs/)
+    - [Google 翻译](https://translate.google.com/?hl=zh-CN&tab=TT&sl=auto&tl=en&op=translate)
 - 自然
     - [一个自然爱好者的社区 · iNaturalist](https://www.inaturalist.org/)
 - 综合
@@ -32,16 +33,22 @@
     - [人民日报](http://paper.people.com.cn/rmrb/paperindex.htm)
     - [学习强国](https://www.xuexi.cn/)
 
+## 视频网站
+
+- [哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/)
+- [YouTube](https://www.youtube.com/)
+- [西瓜视频](https://www.ixigua.com/)
+
 ## 在线工具 {#online-tools}
 
-- [Google 翻译](https://translate.google.com/?hl=zh-CN&tab=TT&sl=auto&tl=en&op=translate)
 - [TypingClub 在线练习打字](https://www.edclub.com/sportal/)
 - [Typing Practice](https://www.keybr.com/)
-- [Awesome Wallpapers - wallhaven.cc](https://wallhaven.cc/)
+- [Awesome Wallpapers - wallhaven.cc](https://wallhaven.cc/search?categories=110&purity=100&atleast=3840x2160&ratios=16x9&sorting=random&order=desc&ai_art_filter=1)
 - [Virtual Piano - Online Piano Keyboard | OnlinePianist](https://www.onlinepianist.com/virtual-piano)
 - [计算器套件 - GeoGebra](https://www.geogebra.org/calculator)
 - [Text to ASCII: The best ASCII Art Generator & Maker](https://www.asciiart.eu/text-to-ascii-art)
 - [AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全](https://ai-bot.cn/)
+- [favicon.ico Generator](https://www.favicon.cc/)
 
 ## 电子相关
 
@@ -55,3 +62,24 @@
 - [Hyprland](https://hyprland.org/)
 - [小企鹅输入法5](https://fcitx-im.org/wiki/Fcitx_5/zh-cn)
 - [Ventoy](https://www.ventoy.net/cn/index.html)
+
+## 资源网站
+
+- [OpenGameArt.org](https://opengameart.org/)
+
+## 音乐网站
+
+- [MyFreeMP3](https://tool.liumingye.cn/music/)
+- [15个免费音乐下载网站对比选择](https://zh.geekersoft.com/resources-multimedia-solutions/best-free-music-sites-comparison.html)
+- [虾米音乐](http://www.xiami.com/play)
+- [Suno人工智能写歌](https://suno.com/)
+
+## 其他
+
+- [小物钓：从入门到精通的全面指南](https://book.xiaowudiao.com/)
+- [钓鱼_钓鱼入门_钓鱼常识_钓鱼人必看](https://m.diaoyu123.com/diaoyu/)
+
+## Linux
+
+- [ArchWiki](https://wiki.archlinux.org/)
+- [USTC Open Source Software Mirror](https://mirrors.ustc.edu.cn/)
