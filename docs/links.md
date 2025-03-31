@@ -15,6 +15,7 @@
     - [漢典](https://www.zdic.net/)
     - [Chinese Etymology 字源](https://hanziyuan.net/)
 - 信息
+    - [OI Wiki](https://oi-wiki.org/)
     - [信息学奥赛一本通（C++版）在线评测系统](http://ybt.ssoier.cn:8088/)
     - [HelloWorld编程在线判题系统](http://go.helloworldroom.com/problems/)
     - [Processing](https://processing.org/)
