@@ -9,23 +9,26 @@
 
 - 数学
     - [数学乐](https://www.shuxuele.com/)
+    - [计算器套件 - GeoGebra](https://www.geogebra.org/calculator)
 - 语文
     - [漢典](https://www.zdic.net/)
     - [Chinese Etymology 字源](https://hanziyuan.net/)
 - 信息
-    - [OI Wiki](https://oi-wiki.org/)
-    - [信息学奥赛一本通（C++版）在线评测系统](http://ybt.ssoier.cn:8088/)
-    - [HelloWorld编程在线判题系统](http://go.helloworldroom.com/problems/)
-    - [Processing](https://processing.org/)
-    - [p5.js](https://p5js.org/zh-Hans/)
-    - [w3school 在线教程](https://www.w3school.com.cn/)
-    - [菜鸟教程 - 学的不仅是技术，更是梦想！](https://www.runoob.com/)
-    - [Python Challenge](http://www.pythonchallenge.com/)
-    - [CheckiO - coding games and programming challenges for beginner and advanced](https://checkio.org/)
-    - [HelloGitHub｜月刊](https://hellogithub.com/periodical)
+    - 编程练习
+        - [OI Wiki](https://oi-wiki.org/)
+        - [信息学奥赛一本通（C++版）在线评测系统](http://ybt.ssoier.cn:8088/)
+        - [HelloWorld编程在线判题系统](http://go.helloworldroom.com/problems/)
+        - [CheckiO - coding games and programming challenges for beginner and advanced](https://checkio.org/)
+    - 在线教程
+        - [Processing](https://processing.org/)
+        - [p5.js](https://p5js.org/zh-Hans/)
+        - [w3school 在线教程](https://www.w3school.com.cn/)
+        - [菜鸟教程 - 学的不仅是技术，更是梦想！](https://www.runoob.com/)
+        - [Python Challenge](http://www.pythonchallenge.com/)
+        - [HelloGitHub｜月刊](https://hellogithub.com/periodical)
 - 英语
-    - [剑桥词典：查找意思、解释及翻译](https://dictionary.cambridge.org/zhs/)
-    - [Google 翻译](https://translate.google.com/?hl=zh-CN&tab=TT&sl=auto&tl=en&op=translate)
+    - [谷歌翻译](https://translate.google.com/?hl=zh-CN&tab=TT&sl=auto&tl=en&op=translate)
+    - [剑桥词典](https://dictionary.cambridge.org/zhs/)
 - 自然
     - [一个自然爱好者的社区 · iNaturalist](https://www.inaturalist.org/)
 - 综合
@@ -45,7 +48,6 @@
 - [Typing Practice](https://www.keybr.com/)
 - [Awesome Wallpapers - wallhaven.cc](https://wallhaven.cc/search?categories=110&purity=100&atleast=3840x2160&ratios=16x9&sorting=random&order=desc&ai_art_filter=1)
 - [Virtual Piano - Online Piano Keyboard | OnlinePianist](https://www.onlinepianist.com/virtual-piano)
-- [计算器套件 - GeoGebra](https://www.geogebra.org/calculator)
 - [Text to ASCII: The best ASCII Art Generator & Maker](https://www.asciiart.eu/text-to-ascii-art)
 - [AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全](https://ai-bot.cn/)
 - [favicon.ico Generator](https://www.favicon.cc/)
