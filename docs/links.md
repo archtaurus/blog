@@ -21,11 +21,12 @@
         - [CheckiO - coding games and programming challenges for beginner and advanced](https://checkio.org/)
         - [Python Challenge](http://www.pythonchallenge.com/)
     - 在线教程
-        - [Processing](https://processing.org/)
-        - [p5.js](https://p5js.org/zh-Hans/)
-        - [w3school 在线教程](https://www.w3school.com.cn/)
         - [菜鸟教程 - 学的不仅是技术，更是梦想！](https://www.runoob.com/)
+        - [w3school 在线教程](https://www.w3school.com.cn/)
+    - 其他资料
         - [HelloGitHub｜月刊](https://hellogithub.com/periodical)
+        - [p5.js](https://p5js.org/zh-Hans/)
+        - [Processing](https://processing.org/)
 - 英语
     - [谷歌翻译](https://translate.google.com/?hl=zh-CN&tab=TT&sl=auto&tl=en&op=translate)
     - [剑桥词典](https://dictionary.cambridge.org/zhs/)
@@ -44,13 +45,13 @@
 
 ## 在线工具 {#online-tools}
 
-- [TypingClub 在线练习打字](https://www.edclub.com/sportal/)
-- [Typing Practice](https://www.keybr.com/)
-- [Awesome Wallpapers - wallhaven.cc](https://wallhaven.cc/search?categories=110&purity=100&atleast=3840x2160&ratios=16x9&sorting=random&order=desc&ai_art_filter=1)
-- [Virtual Piano - Online Piano Keyboard | OnlinePianist](https://www.onlinepianist.com/virtual-piano)
-- [Text to ASCII: The best ASCII Art Generator & Maker](https://www.asciiart.eu/text-to-ascii-art)
 - [AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全](https://ai-bot.cn/)
+- [Awesome Wallpapers - wallhaven.cc](https://wallhaven.cc/search?categories=110&purity=100&atleast=3840x2160&ratios=16x9&sorting=random&order=desc&ai_art_filter=1)
 - [favicon.ico Generator](https://www.favicon.cc/)
+- [Text to ASCII: The best ASCII Art Generator & Maker](https://www.asciiart.eu/text-to-ascii-art)
+- [Typing Practice](https://www.keybr.com/)
+- [TypingClub 在线练习打字](https://www.edclub.com/sportal/)
+- [Virtual Piano - Online Piano Keyboard | OnlinePianist](https://www.onlinepianist.com/virtual-piano)
 
 ## 电子相关
 
@@ -60,11 +61,11 @@
 
 ## 软件官网 {#softwares}
 
-- [kitty](https://sw.kovidgoyal.net/kitty/)
-- [Hyprland](https://hyprland.org/)
 - [小企鹅输入法5](https://fcitx-im.org/wiki/Fcitx_5/zh-cn)
-- [Ventoy](https://www.ventoy.net/)
+- [Hyprland](https://hyprland.org/)
+- [kitty](https://sw.kovidgoyal.net/kitty/)
 - [Obsidian](https://obsidian.md/)
+- [Ventoy](https://www.ventoy.net/)
 
 ## 资源网站
 
