@@ -63,7 +63,8 @@
 - [kitty](https://sw.kovidgoyal.net/kitty/)
 - [Hyprland](https://hyprland.org/)
 - [小企鹅输入法5](https://fcitx-im.org/wiki/Fcitx_5/zh-cn)
-- [Ventoy](https://www.ventoy.net/cn/index.html)
+- [Ventoy](https://www.ventoy.net/)
+- [Obsidian](https://obsidian.md/)
 
 ## 资源网站
 
