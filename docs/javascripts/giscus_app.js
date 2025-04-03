@@ -1,0 +1,16 @@
+<script src="https://giscus.app/client.js"
+    data-repo="archtaurus/blog"
+    data-repo-id="R_kgDOOOyr0Q"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOOOyr0c4CovCB"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
