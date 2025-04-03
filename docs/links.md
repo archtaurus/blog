@@ -19,12 +19,12 @@
         - [信息学奥赛一本通（C++版）在线评测系统](http://ybt.ssoier.cn:8088/)
         - [HelloWorld编程在线判题系统](http://go.helloworldroom.com/problems/)
         - [CheckiO - coding games and programming challenges for beginner and advanced](https://checkio.org/)
+        - [Python Challenge](http://www.pythonchallenge.com/)
     - 在线教程
         - [Processing](https://processing.org/)
         - [p5.js](https://p5js.org/zh-Hans/)
         - [w3school 在线教程](https://www.w3school.com.cn/)
         - [菜鸟教程 - 学的不仅是技术，更是梦想！](https://www.runoob.com/)
-        - [Python Challenge](http://www.pythonchallenge.com/)
         - [HelloGitHub｜月刊](https://hellogithub.com/periodical)
 - 英语
     - [谷歌翻译](https://translate.google.com/?hl=zh-CN&tab=TT&sl=auto&tl=en&op=translate)
