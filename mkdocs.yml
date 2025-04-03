@@ -23,6 +23,7 @@ nav:
   - 编程: code.md
   - 帮助: help.md
   - 收藏: links.md
+  - 留言: comments.md
 
 # ========================
 # 资源文件配置
@@ -32,7 +33,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/external_links.js # 自动为外链添加 target="_blank"
-  - https://polyfill.io/v3/polyfill.min.js?features=es6 # ES6兼容垫片（可选）
+  - https://cdn.jsdelivr.net/npm/js-polyfills@0.1.43/polyfill.min.js?features=es6 # ES6兼容垫片（可选）
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # MathJax 3
   # 国内备用CDN（注释状态）:
   # - https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
