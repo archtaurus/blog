@@ -1,7 +1,3 @@
----
-comments: true
----
-
 # 收藏
 
 ## 每日必上 {#everyday}

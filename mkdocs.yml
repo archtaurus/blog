@@ -49,6 +49,7 @@ extra:
 theme:
   language: zh # 中文界面
   name: material # 使用Material主题
+  custom_dir: theme
   font:
     text: Maple Mono NF CN # 正文字体
     code: Maple Mono NF CN # 代码字体
