@@ -6,7 +6,7 @@ site_name: 老赵杂记
 site_url: https://io-oi.cc/blog/ # 注意：确保结尾有斜杠
 site_description: "老赵杂记"
 copyright: |
-  &copy; 1975~2025 <a href="https://github.com/archtaurus" target="_blank" rel="noopener">Zhao Xin</a>
+  ❤ 1975~2025 <a href="https://github.com/archtaurus" target="_blank" rel="noopener">Zhao Xin</a>
 
 # ========================
 # 仓库信息
@@ -32,11 +32,15 @@ extra_css:
   - stylesheets/custom.css # 自定义CSS文件路径
 
 extra_javascript:
-  - javascripts/external_links.js # 自动为外链添加 target="_blank"
-  - https://cdn.jsdelivr.net/npm/js-polyfills@0.1.43/polyfill.min.js?features=es6 # ES6兼容垫片（可选）
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # MathJax 3
+  # CDN1
+  # - https://cdn.jsdelivr.net/npm/js-polyfills@0.1.43/polyfill.min.js?features=es6 # ES6兼容垫片（可选）
+  # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # MathJax 3
   # 国内备用CDN（注释状态）:
+  # - https://cdn.bootcdn.net/ajax/libs/core-js/3.40.0/minified.min.js
   # - https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
+  - javascripts/external_links.js # 自动为外链添加 target="_blank"
+  - javascripts/core-js.3.41.minified.js # ES6兼容垫片（可选）
+  - javascripts/mathjax/tex-chtml-full.js # MathJax 3
 
 extra:
   generator: false # 隐藏"Powered by MkDocs"声明
@@ -52,8 +56,8 @@ theme:
   name: material # 使用Material主题
   custom_dir: theme
   font:
-    text: Maple Mono NF CN # 正文字体
-    code: Maple Mono NF CN # 代码字体
+    text: Noto Serif SC # 正文字体
+    code: JetBrains Mono # 代码字体
   icon:
     repo: fontawesome/brands/github-alt # 仓库图标
   logo: images/logo.png # 网站Logo路径
@@ -62,12 +66,12 @@ theme:
   features:
     - content.code.annotate # 代码注释增强
     - content.code.copy # 代码复制按钮
-    - navigation.top # 返回顶部按钮
-    - toc.integrate # 集成目录
-    - search.suggest # 搜索建议
-    - search.highlight # 搜索高亮
     - content.tabs.link # 标签页可链接
-    - navigation.tabs # 顶部标签导航
+    # - navigation.tabs # 顶部标签导航
+    # - navigation.top # 返回顶部按钮
+    - search.highlight # 搜索高亮
+    - search.suggest # 搜索建议
+    # - toc.integrate # 集成目录
   # 颜色方案配置
   palette:
     - scheme: default # 浅色模式

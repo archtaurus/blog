@@ -1,11 +1,10 @@
 /* docs/stylesheets/custom.css */
 
 /* 右侧目录布局 */
-@media screen and (min-width: 76.25em) {
+/* @media screen and (min-width: 76.25em) {
     .md-main__inner {
         display: flex;
         flex-direction: row-reverse;
-        /* 反向排列 */
     }
 
     .md-content {
@@ -19,12 +18,12 @@
         border-left: 1px solid var(--md-default-fg-color--lightest);
         border-right: none;
     }
-}
+} */
 
 /* 调整目录宽度 */
-.md-sidebar--secondary {
+/* .md-sidebar--secondary {
     width: 15rem;
-}
+} */
 
 /* 通用图片居中方案 */
 .center,
