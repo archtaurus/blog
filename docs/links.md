@@ -33,6 +33,7 @@
 - 自然
     - [一个自然爱好者的社区 · iNaturalist](https://www.inaturalist.org/)
 - 综合
+    - [维基教科书](https://zh.wikibooks.org/wiki/Wikibooks:首页)
     - [新学网 - 中学生 小学生 在线学习网](http://www.newxue.com/)
     - [人民日报](http://paper.people.com.cn/rmrb/paperindex.htm)
     - [学习强国](https://www.xuexi.cn/)
