@@ -50,7 +50,6 @@
 ## 在线工具 {#online-tools}
 
 - [AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全](https://ai-bot.cn/)
-- [Awesome Wallpapers - wallhaven.cc](https://wallhaven.cc/search?categories=110&purity=100&atleast=3840x2160&ratios=16x9&sorting=random&order=desc&ai_art_filter=1)
 - [favicon.ico Generator](https://www.favicon.cc/)
 - [Text to ASCII: The best ASCII Art Generator & Maker](https://www.asciiart.eu/text-to-ascii-art)
 - [Typing Practice](https://www.keybr.com/)
@@ -74,6 +73,7 @@
 ## 资源网站
 
 - [OpenGameArt.org](https://opengameart.org/)
+- [Awesome Wallpapers - wallhaven.cc](https://wallhaven.cc/search?categories=110&purity=100&atleast=3840x2160&ratios=16x9&sorting=random&order=desc&ai_art_filter=1)
 
 ## 音乐网站
 
