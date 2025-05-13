@@ -61,6 +61,7 @@
 - [嘉立创EDA | 高效的国产PCB设计工具，永久免费](https://lceda.cn/)
 - [元器件备货-电子元器件采购网-立创商城](https://www.szlcsc.com/)
 - [Tinkercad | From mind to design in minutes](https://www.tinkercad.com/dashboard)
+- [开源电路模拟器circuitjs](https://www.falstad.com/circuit/circuitjs.html)
 
 ## 软件官网 {#softwares}
 
