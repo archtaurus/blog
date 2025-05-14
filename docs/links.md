@@ -20,6 +20,7 @@
         - [HelloWorld编程在线判题系统](http://go.helloworldroom.com/problems/)
         - [CheckiO - coding games and programming challenges for beginner and advanced](https://checkio.org/)
         - [Python Challenge](http://www.pythonchallenge.com/)
+        - [Codedex](https://www.codedex.io)
     - 在线教程
         - [一图了解信奥赛如何准备规划️](https://www.bilibili.com/opus/924259558909542416)
         - [OI Wiki](https://www.noi.cn/)
