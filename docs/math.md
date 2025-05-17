@@ -55,12 +55,11 @@ $$
 ##### 相反数
 
 - 非零实数a的相反数为-a，0的相反数是0。
-- $ a + (-a) = 0$
+- $a + (-a) = 0$
 
 ##### 绝对值
 
-$
-|a|=
+$|a|=
 \begin{cases}
 a\ (a \geq 0)\\
 0\ (a = 0)\\
@@ -78,8 +77,7 @@ $ab=1\ (a,b互为倒数)$
 
 加法
 
-$
-a+b=
+$a+b=
 \begin{cases}
 |a|+|b|\ (a与b同号)\\
 (绝对值较大者的符号)(max(|a|, |b|) - min(|a|, |b|)) \ (a与b异号)\\
@@ -89,29 +87,23 @@ $
 
 减法
 
-$
-a - b = a + (-b)
-$
+$a - b = a + (-b)$
 
 乘法
 
-$
-\begin{cases}
+$\begin{cases}
 ab=0\ (a=0 \lor b=0)\\
 ab>0\ (a与b同号)\\
 ab<0\ (a与b异号)\\
-\end{cases}
-$
+\end{cases}$
 
 除法
 
-$
-\frac{a}{b} = a \times \frac{1}{b} (b\neq 0)
-$
+$\frac{a}{b} = a \times \frac{1}{b} (b\neq 0)$
 
 乘方
 
-$a^n = \underbrace{a \cdot a \cdot a \cdots a}_{n个} $
+$a^n = \underbrace{a \cdot a \cdot a \cdots a}_{n个}$
 
 $a$称底数，$n$称指数，结果称幂，读作$a$的$n$次方。二次方也称平方，三次方也称立方。
 
