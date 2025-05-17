@@ -64,8 +64,7 @@ $|a|=
 a\ (a \geq 0)\\
 0\ (a = 0)\\
 -a\ (a \lt 0)
-\end{cases}
-$
+\end{cases}$
 
 ##### 倒数
 
@@ -82,8 +81,7 @@ $a+b=
 |a|+|b|\ (a与b同号)\\
 (绝对值较大者的符号)(max(|a|, |b|) - min(|a|, |b|)) \ (a与b异号)\\
 a\ (b=0)
-\end{cases}
-$
+\end{cases}$
 
 减法
 
