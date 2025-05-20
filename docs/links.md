@@ -17,6 +17,7 @@
     - [NOI官网](https://oi-wiki.org/)
     - 编程练习
         - [信息学奥赛一本通（C++版）在线评测系统](http://ybt.ssoier.cn:8088/)
+        - [力扣中国](https://leetcode.cn/)
         - [HelloWorld编程在线判题系统](http://go.helloworldroom.com/problems/)
         - [CheckiO - coding games and programming challenges for beginner and advanced](https://checkio.org/)
         - [Python Challenge](http://www.pythonchallenge.com/)
