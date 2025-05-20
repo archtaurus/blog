@@ -1,0 +1,1202 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="老赵杂记">
+      
+      
+        <meta name="author" content="老赵">
+      
+      
+        <link rel="canonical" href="https://io-oi.cc/blog/math/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../code/">
+      
+      
+      <link rel="icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>数学 - 老赵杂记</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Serif SC";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="老赵杂记" class="md-header__button md-logo" aria-label="老赵杂记" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            老赵杂记
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              数学
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="grey" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/archtaurus/blog" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
+  </div>
+  <div class="md-source__repository">
+    archtaurus/blog
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="老赵杂记" class="md-nav__button md-logo" aria-label="老赵杂记" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    老赵杂记
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/archtaurus/blog" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
+  </div>
+  <div class="md-source__repository">
+    archtaurus/blog
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    首页
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    数学
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    数学
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      概念
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="概念">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      数 🔢
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数 🔢">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      有理数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="有理数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      相反数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      绝对值
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      倒数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      运算
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      无理数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      实数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#factor" class="md-nav__link">
+    <span class="md-ellipsis">
+      因数与倍数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prime" class="md-nav__link">
+    <span class="md-ellipsis">
+      质数与合数
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      量 📏
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="量 📏">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      单位
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      式
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      数学公式
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数学公式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      等差数列
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      三角形
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      圆形
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      球体
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      距离
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      概率
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="概率">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      排列
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      组合
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    编程
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../physics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    物理
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../help/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    帮助
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../links/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    收藏
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    留言
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      概念
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="概念">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      数 🔢
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数 🔢">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      有理数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="有理数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      相反数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      绝对值
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      倒数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      运算
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      无理数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      实数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#factor" class="md-nav__link">
+    <span class="md-ellipsis">
+      因数与倍数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prime" class="md-nav__link">
+    <span class="md-ellipsis">
+      质数与合数
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      量 📏
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="量 📏">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      单位
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      式
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      数学公式
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数学公式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      等差数列
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      三角形
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      圆形
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      球体
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      距离
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      概率
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="概率">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      排列
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      组合
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="_1">数学</h1>
+<h2 id="_2">概念</h2>
+<p><a href="https://zh.wikipedia.org/zh-hans/数学">数学</a>是研究<a href="https://zh.wikipedia.org/zh-hans/量_(数学)">数量</a>、<a href="https://zh.wikipedia.org/zh-hans/数学结构">结构</a>以及<a href="https://zh.wikipedia.org/zh-hans/空间_(数学)">空间</a>等概念及其变化的一门学科，属于<a href="https://zh.wikipedia.org/zh-hans/形式科学">形式科学</a>的一种。数学利用<a href="https://zh.wikipedia.org/zh-hans/抽象化">抽象化</a>和<a href="https://zh.wikipedia.org/zh-hans/形式科学">逻辑</a>，从<a href="https://zh.wikipedia.org/zh-hans/计数">计数</a>、<a href="https://zh.wikipedia.org/zh-hans/计算">计算</a>、<a href="https://zh.wikipedia.org/zh-hans/量度">量度</a>、对物体<a href="https://zh.wikipedia.org/zh-hans/形状">形状</a>及<a href="https://zh.wikipedia.org/zh-hans/运动_(物理学)">运动</a>的观察发展而成。<a href="https://zh.wikipedia.org/zh-hans/数学家">数学家</a>们拓展这些概念，以<a href="https://zh.wikipedia.org/wiki/公式">公式</a>化新的<a href="https://zh.wikipedia.org/zh-hans/猜想">猜想</a>，以及从选定的<a href="https://zh.wikipedia.org/zh-hans/公理">公理</a>及<a href="https://zh.wikipedia.org/zh-hans/定义">定义</a>出发，<a href="https://zh.wikipedia.org/zh-hans/严谨">严谨</a>地推导出一些<a href="https://zh.wikipedia.org/zh-hans/定理">定理</a>。</p>
+<div class="arithmatex">\[
+观察 \xrightarrow{\text{归纳}} 猜想 + 公理/定义 \xrightarrow{\text{探索/证明}} 定理
+\]</div>
+<h3 id="_3">数 🔢</h3>
+<p>“<a href="https://zh.wikipedia.org/zh-hans/数">数</a>”是“量”的抽象化，有：
+<a href="https://zh.wikipedia.org/zh-hans/0">零 <span class="arithmatex">\(\mathbb {0}\)</span></a>、
+<a href="https://zh.wikipedia.org/zh-hans/自然数">自然数(<span class="arithmatex">\(\mathbb {N}\)</span>)</a>、
+<a href="https://zh.wikipedia.org/zh-hans/整数">整数 (<span class="arithmatex">\(\mathbb {Z}\)</span>)</a>、
+<a href="https://zh.wikipedia.org/zh-hans/有理数">有理数 (<span class="arithmatex">\(\mathbb {Q}\)</span>)</a>、
+<a href="https://zh.wikipedia.org/zh-hans/无理数">无理数</a>、
+<a href="https://zh.wikipedia.org/zh-hans/实数">实数 (<span class="arithmatex">\(\mathbb {R}\)</span>)</a>、
+<a href="https://zh.wikipedia.org/zh-hans/虚数">虚数 (<span class="arithmatex">\(\mathbb {I}\)</span>)</a>、
+<a href="https://zh.wikipedia.org/zh-hans/复数_(数学)">复数 (<span class="arithmatex">\(\mathbb {C}\)</span>)</a>。数还有：
+<a href="https://zh.wikipedia.org/zh-hans/奇偶性_(数学)">奇数和偶数</a>、
+<a href="https://zh.wikipedia.org/zh-hans/正数">正数</a>和<a href="https://zh.wikipedia.org/zh-hans/负数">负数</a>、
+<a href="https://zh.wikipedia.org/zh-hans/分数">分数</a>和<a href="https://zh.wikipedia.org/zh-hans/小数">小数</a>、
+<a href="https://zh.wikipedia.org/zh-hans/因数">因数</a>和<a href="https://zh.wikipedia.org/zh-hans/倍数">倍数</a>、
+<a href="https://zh.wikipedia.org/zh-hans/质数">质数</a>和<a href="https://zh.wikipedia.org/zh-hans/合数">合数</a>、
+<a href="https://zh.wikipedia.org/zh-hans/完全数">完全数</a>、
+<a href="https://zh.wikipedia.org/zh-hans/规矩数">规矩数</a>、
+<a href="https://zh.wikipedia.org/zh-hans/数学常数">数学常数</a>、
+<a href="https://zh.wikipedia.org/zh-hans/代数">代数</a>……😵</p>
+<div class="arithmatex">\[
+\mathbb{N} \subseteq \mathbb{Z} \subseteq \mathbb{Q} \subseteq \mathbb{R} \subseteq \mathbb{C}
+\]</div>
+<p><img alt="各种各样的数" class="center" src="../images/%E5%90%84%E7%A7%8D%E5%90%84%E6%A0%B7%E7%9A%84%E6%95%B0.png" /></p>
+<h4 id="_4">有理数</h4>
+<p>有理数（英语：rational number）是“可理解”的数，是<strong>可以表示为两个整数之比的数</strong>（其中分母非零），即所有<strong>分数</strong>（含分母为1的分数，即整数），都可以用<strong>有限小数</strong>或<strong>循环小数</strong>表达。</p>
+<div class="arithmatex">\[
+\mathbb{Q} = \left\{ \frac{a}{b} \,\middle|\, a,b\in\mathbb{Z}, b\neq0 \right\}
+\]</div>
+<p>分数有：</p>
+<ol>
+<li><strong>单位分数</strong>：分子为 1 的分数（如 <span class="arithmatex">\(\frac{1}{3}\)</span>​）</li>
+<li><strong>真分数</strong>：分子绝对值小于分母绝对值（如 <span class="arithmatex">\(\frac{2}{3}\)</span>​）。</li>
+<li><strong>带分数</strong>：由整数部分和真分数部分组成（如 <span class="arithmatex">\(1\frac{2}{3}\)</span>​）。</li>
+<li><strong>假分数</strong>：分子绝对值大于或等于分母绝对值（如 <span class="arithmatex">\(\frac{5}{3}\)</span>​）。</li>
+<li><strong>最简分数</strong>：分子与分母<strong>互质</strong>，无法进一步约分（如 <span class="arithmatex">\(\frac{3}{4}\)</span>​​）。</li>
+</ol>
+<h5 id="_5">相反数</h5>
+<ul>
+<li>非零实数a的相反数为-a，0的相反数是0。</li>
+<li><span class="arithmatex">\(a + (-a) = 0\)</span></li>
+</ul>
+<h5 id="_6">绝对值</h5>
+<p><span class="arithmatex">\(|a|=
+\begin{cases}
+a\ (a \geq 0)\\
+0\ (a = 0)\\
+-a\ (a \lt 0)
+\end{cases}\)</span></p>
+<h5 id="_7">倒数</h5>
+<p>非零实数a的倒数是<span class="arithmatex">\(1 \over a\)</span>，0没有倒数。</p>
+<p><span class="arithmatex">\(ab=1\ (a,b互为倒数)\)</span></p>
+<h5 id="_8">运算</h5>
+<p>加法</p>
+<p><span class="arithmatex">\(a+b=
+\begin{cases}
+|a|+|b|\ (a与b同号)\\
+(绝对值较大者的符号)(max(|a|, |b|) - min(|a|, |b|)) \ (a与b异号)\\
+a\ (b=0)
+\end{cases}\)</span></p>
+<p>减法</p>
+<p><span class="arithmatex">\(a - b = a + (-b)\)</span></p>
+<p>乘法</p>
+<p><span class="arithmatex">\(\begin{cases}
+ab=0\ (a=0 \lor b=0)\\
+ab&gt;0\ (a与b同号)\\
+ab&lt;0\ (a与b异号)\\
+\end{cases}\)</span></p>
+<p>除法</p>
+<p><span class="arithmatex">\(\frac{a}{b} = a \times \frac{1}{b} (b\neq 0)\)</span></p>
+<p>乘方</p>
+<p><span class="arithmatex">\(a^n = \underbrace{a \cdot a \cdot a \cdots a}_{n个}\)</span></p>
+<p><span class="arithmatex">\(a\)</span>称底数，<span class="arithmatex">\(n\)</span>称指数，结果称幂，读作<span class="arithmatex">\(a\)</span>的<span class="arithmatex">\(n\)</span>次方。二次方也称平方，三次方也称立方。</p>
+<h4 id="_9">无理数</h4>
+<p>无理数（英语：irrational number）是有理数的反面，既没有指定的字母符号去标识它们，也没有象有理数那样明确的定义，若将其写成小数形式，小数点后有无限多位，并且不会循环，即<strong>无限不循环小数</strong>。无理数的代表有：</p>
+<ul>
+<li><span class="arithmatex">\(\sqrt{2} = 1.4142135623730951…\)</span></li>
+<li><span class="arithmatex">\(e = 2.71828182845904523536…\)</span></li>
+<li><span class="arithmatex">\(\pi = 3.141592653589793238462…\)</span></li>
+</ul>
+<h4 id="_10">实数</h4>
+<p>有理数+无理数=实数。</p>
+<p>实数轴：原点（O,0）+正方向+单位长度，其上各点与实数一一对应。</p>
+<h4 id="factor">因数与倍数</h4>
+<p><a href="https://zh.wikipedia.org/zh-hans/因数">因数</a>（英语：factor）也称 约数、因子、除子、除数（divisor），是一个常见的数学名词，用于描述自然数 <span class="arithmatex">\(a\)</span> 和自然数 <span class="arithmatex">\(b\)</span> 之间存在的整除关系，即 <span class="arithmatex">\(b\)</span> 可以被 <span class="arithmatex">\(a\)</span>整除。这里我们称 <span class="arithmatex">\(b\)</span> 是 <span class="arithmatex">\(a\)</span> 的<a href="https://zh.wikipedia.org/zh-hans/倍数">倍数</a>， <span class="arithmatex">\(a\)</span> 是 <span class="arithmatex">\(b\)</span> 的因数或因子（<a href="../code/#factor">🖥 获取因数的算法实现</a>）。</p>
+<h4 id="prime">质数与合数</h4>
+<p><a href="https://zh.wikipedia.org/wiki/质数">质数</a>，又称素数，指在大于1的自然数中，除了 1 和该数自身外，无法被其他自然数整除的数（也可定义为只有 1 与该数本身两个正因数的数）。大于 1 的自然数若不是素数，则称之为<a href="https://zh.wikipedia.org/zh-hans/合数">合数</a>（也称为合成数）（<a href="../code/#prime">🖥 质数相关算法实现</a>）。</p>
+<h3 id="_11">量 📏</h3>
+<p>“<a href="https://zh.wikipedia.org/zh-hans/量_(数学)">量</a>”是任意一种<a href="https://zh.wikipedia.org/zh-hans/数学对象">数学对象</a>的任意一种属性的“大小”。“数学的量”是非负实数，可更简单地想成是其与同类对象比较时，放在同一测量尺度下的“长度”， 如：线段的长度、三角形的面积、夹角的角度、苹果的质量、时间的长短等。</p>
+<h4 id="_12">单位</h4>
+<p><a href="https://zh.wikipedia.org/wiki/计量单位">单位</a>（unit），在物理学及数学上，是由惯例或法律定义和采用的某一“基础物理量”或“基本计数基准”的确切量值或数值，作为公认的测量标准。单位的给定皆属人为，常伴随着某种表示法，例如米、秒、千克等，以方便人们在沟通某一量时有共通的概念。</p>
+<p><a href="https://zh.wikipedia.org/wiki/国际单位制">国际单位制</a>以七个基本单位为基础，由此建立起一系列相互换算关系明确的“一致单位”。</p>
+<p><img alt="国际单位制基本单位" class="center" src="../images/%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8D%95%E4%BD%8D.png" width="200" /></p>
+<h2 id="_13">式</h2>
+<p>概念：代数和</p>
+<p><span class="arithmatex">\(a+b=b+a\ (加法交换律)\)</span></p>
+<p><span class="arithmatex">\((a+b)+c=a+(b+c)\ (加法结合律)\)</span></p>
+<p><span class="arithmatex">\(ab=ba\ (乘法交换律)\)</span></p>
+<p><span class="arithmatex">\((ab)c=a(bc)\ (乘法结合律)\)</span></p>
+<p><span class="arithmatex">\(a(b+c)=ab+ ac\ (乘法分配率)\)</span></p>
+<h2 id="_14">数学公式</h2>
+<h3 id="_15">等差数列</h3>
+<p><span class="arithmatex">\(首项记作a_1，公差记作d=a_{n+1}-a_n= \frac{a_m-a_n}{m-n}，第n项a_n=a_1+(n-1)d = \frac{a_{n-1}+a_{n+1}}{2}。\)</span></p>
+<p>一个等差数列的和(或算术级数)<span class="arithmatex">\(S_n\)</span>，等于其首项与末项的和，乘以项数除以2。</p>
+<p><span class="arithmatex">\(S_n=\frac{n}{2}(a_1+a_n)\)</span></p>
+<h3 id="_16">三角形</h3>
+<p><span class="arithmatex">\(三角形面积=\frac{1}{2}ah （注：h是边a上的高）\)</span></p>
+<p><span class="arithmatex">\(三角形面积=\sqrt{p(p-a)(p-b)(p-c)} （注：海伦公式，a,b,c是三角形三边边长，p是三角形半周长\frac{a+b+c}{2}）\)</span></p>
+<p>勾股定理，a、b为直角三角形的两条直角边边长，c为直角三角形的斜边边长</p>
+<p><span class="arithmatex">\(c^2 = a^2 + b^2\)</span> 或 <span class="arithmatex">\(c = \sqrt{a^2 + b^2}\)</span></p>
+<h3 id="_17">圆形</h3>
+<p><span class="arithmatex">\(圆形周长 = 2 \pi r = \pi d\)</span></p>
+<p><span class="arithmatex">\(圆形面积 = \pi r ^ 2\)</span></p>
+<h3 id="_18">球体</h3>
+<p><span class="arithmatex">\(球体体积 = \frac{4}{3} \pi r^3\)</span></p>
+<h3 id="_19">距离</h3>
+<p><span class="arithmatex">\(两点间的直线距离=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}\)</span></p>
+<h2 id="_20">概率</h2>
+<p>概率，旧称几率，又称机率、机会率或或然率，是对随机事件发生之<strong>可能性</strong>的度量，为数学概率论的基本概念。</p>
+<p>概率的值是一个在 0 到 1 之间的实数，也常以百分数来表示。完全没有可能时概率为 0，只有一种可能时概率为 1。投 6 面骰子的结果有 6 种可能，其中单数的可能有 3 种，故投出单数的可能性 <span class="arithmatex">\(p = \dfrac{3}{6} = \dfrac{1}{2}\)</span>。</p>
+<h3 id="_21">排列</h3>
+<p><a href="https://zh.wikipedia.org/zh-hans/排列">排列数</a>（英语：Permutation）是将<strong>相异对象</strong>根据确定的顺序重排的所有不同排法的个数。排列数可写作：</p>
+<div class="arithmatex">\[
+ \begin{align} A_{10}^3 &amp;= \underbrace{10\times9\times8}_{3个} = 720 \newline A_n^n &amp;= \underbrace{n\times(n-1)\times(n-2)\times\cdots\times1}_{n个} = n! （A_n^n叫全排列，n!叫做n的阶乘） \newline  A_{n}^{m} &amp;= \underbrace{n\times(n-1)\times(n-2)\times\cdots\times(n-m+1)}_{m个} \newline &amp;= \dfrac{n\times(n-1)\times(n-2)\times\cdots\times(n-m+1)\times(n-m)\times(n-m-1)\times(n-m-2)\times\cdots\times1}{(n-m)\times(n-m-1)\times(n-m-2)\times\cdots\times1} \newline &amp;= \dfrac{n!}{(n-m)!} \end{align}
+\]</div>
+<p>例如：10 个人比赛前 3 名的排列数。</p>
+<p>解答：从 10 人中选出第 1 名有 10 种可能，从剩下的 9 人中选出第 2 名有 9 种可能，再从剩下的 8 人中选出第 3 名有 8 种可能，分步过程应用<strong>乘法原理</strong>将各步的可能数相乘，即 <span class="arithmatex">\(10\times9\times8=720\)</span> 种。</p>
+<p>公式 1：<span class="arithmatex">\(A_n^n = n!\)</span></p>
+<p>公式 2：<span class="arithmatex">\(A_n^m = \dfrac{n!}{(n-m)!}\)</span></p>
+<h3 id="_22">组合</h3>
+<p><a href="https://zh.wikipedia.org/zh-hans/组合">组合数</a>（英语：Combination）是从 n 个不同元素中取出 m 个元素的所有不同组合的个数，记作：</p>
+<div class="arithmatex">\[
+C_n^m = \dfrac{A_n^m}{A_m^m} = \dfrac{n!}{(n-m)!m!}
+\]</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      ❤ 1975~2025 <a href="https://github.com/archtaurus" target="_blank" rel="noopener">Zhao Xin</a>
+
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/archtaurus" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.code.copy", "content.tabs.link", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../javascripts/external_links.js"></script>
+      
+        <script src="../javascripts/core-js.3.41.minified.js"></script>
+      
+        <script src="../javascripts/mathjax/tex-chtml-full.js"></script>
+      
+    
+  </body>
+</html>
